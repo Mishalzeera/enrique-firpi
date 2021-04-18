@@ -108,6 +108,7 @@ General Layout
 ---------------------- */
 
 .about-box {
+    margin-top: 3em;
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr;
@@ -120,7 +121,7 @@ General Layout
 
 .media-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 
@@ -154,6 +155,7 @@ Body content
 }
 
 .credit-par {
+    font-weight: 200;
     font-size: 1.2rem;
     color: rgb(241, 223, 177);
     margin-bottom: 3em;
@@ -174,7 +176,9 @@ Body content
 
 
 iframe {
+    margin-top: 3em;
     width: 100%;
+    grid-column: 1/2;
 }
 
 /* --------------------
