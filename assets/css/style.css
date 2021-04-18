@@ -285,7 +285,7 @@ Footer
 ----------------------------------------- */
 
 footer {
-     background-image: linear-gradient(to bottom, rgba(135, 207, 235, 0), #008f6b10);
+     background-image: linear-gradient(to bottom, rgba(135, 207, 235, 0), #008f6b15);
      min-height: 9em;
 }
 
@@ -304,6 +304,10 @@ Media queries
 @media (max-width: 600px) {
 
   
+    p {
+    font-size: 1.1rem;
+    }
+
     header h1 {
         font-size: 3rem;
     }
@@ -313,9 +317,9 @@ Media queries
         padding: 0 2em;
     }
 
-    .index-text {
+    /* .index-text {
         display: none;
-    }
+    } */
 
     .about-box {
     margin-top: 3em;
@@ -324,10 +328,6 @@ Media queries
     text-align: center;
 
 }
-
-    .about-text {
-        margin-top: 0;
-    }
 
 
 .about-img {
